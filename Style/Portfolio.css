@@ -145,4 +145,41 @@ text-align: center;
     gap:24px
     
 }
+/* resume contant style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description .experience-subtile{
+    color:#757575;
+    margin-bottom: 20px;
+
+}
+.resume hr{
+    margin: 30px 5px;
+}
+
+/* footer style */
+footer{
+
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+   
+}
+.footer-column{
+ width: 50%;
+}
+ footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+
+
+}
 
